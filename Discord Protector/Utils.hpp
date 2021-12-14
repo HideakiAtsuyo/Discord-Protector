@@ -49,6 +49,14 @@ public:
         return r;
     }
 
+    static void writeAllText(const std::filesystem::path& path, std::string content)
+    {
+        std::fstream ofs;
+        ofs.open(path, std::ios::out | std::ios::trunc);
+        ofs << content;
+        ofs.close();
+    }
+
     /* Ty */
     static bool endsWith(const std::string& mainStr, const std::string& toMatch)
     {

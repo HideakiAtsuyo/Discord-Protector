@@ -51,6 +51,13 @@ int main()
                             Logger::Warn("Suspicious File found & deleted.");
                             std::filesystem::remove(file);
                         }
+                        if (fileName == "index.js") {
+                            std::string content = "module.exports = require('./core.asar');";
+                            if (Utils::file_contents(file) != content) {
+                                Utils::writeAllText(file, content);
+                                Logger::Warn("Suspicious Modifications.. Fixed !");
+                            }
+                        }
                     }
                 }
             }
