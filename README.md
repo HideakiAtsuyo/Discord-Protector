@@ -1,6 +1,6 @@
-# Discord-Injections-Remover-cpp
+# Discord-Protector
 
-[![](https://www.codefactor.io/repository/github/HideakiAtsuyo/Discord-Injections-Remover-cpp/badge)](https://www.codefactor.io/repository/github/HideakiAtsuyo/Discord-Injections-Remover-cpp)
+[![](https://www.codefactor.io/repository/github/HideakiAtsuyo/Discord-Protector/badge)](https://www.codefactor.io/repository/github/HideakiAtsuyo/Discord-Protector)
 
 An ugly C++ port of [Discord-Injections-Remover](https://github.com/HideakiAtsuyo/Discord-Injections-Remover)
 
