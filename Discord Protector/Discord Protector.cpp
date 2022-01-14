@@ -294,7 +294,7 @@ int main(int, char**)
                 TextTooltip(xor("(?)"), xor("Need Real Time Check Activated."));
             }
             else if (tab == 2) {
-
+                ImGui::Text("Credits & More");
             }
             
             ImGui::PopStyleColor();
