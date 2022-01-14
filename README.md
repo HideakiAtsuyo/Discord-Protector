@@ -4,6 +4,8 @@
 
 An ugly C++ port of [Discord-Injections-Remover](https://github.com/HideakiAtsuyo/Discord-Injections-Remover)
 
+- Will be updated weekly/monthly
+
 ## To Do:
 
 - Hash verifications(files)
