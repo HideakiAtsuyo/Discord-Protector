@@ -6,9 +6,9 @@ An ugly C++ port of [Discord-Injections-Remover](https://github.com/HideakiAtsuy
 
 - Will be updated weekly/monthly
 
-## To Do:
+## To Do(In order of priority):
 
+- GUI (WIP)
 - Hash verifications(files)
-- Real Time Verifications(files)
-- GUI (?)
 - Support All Client Versions(Support Better Discord, LightCord etc... ?)
+- Real Time Verifications(files, etc.. (As Service))
