@@ -266,7 +266,6 @@ int main(int, char**)
             ImGui::Separator();
 
             if (tab == 0) {
-
                 if (ImGui::Button(xor("Start Protection"), ImVec2(150, 25)))
                 {
                     //
@@ -297,12 +296,7 @@ int main(int, char**)
             else if (tab == 2) {
 
             }
-            /*if (ImGui::Checkbox("Integrity Check", &IntegrityCheck)) {
-
-            }
-            ImGui::SameLine();
-            TextTooltip("(?)", "This will compare the file hashes of your Discord installation with the known ones.");*/
-
+            
             ImGui::PopStyleColor();
             ImGui::End();
         }
