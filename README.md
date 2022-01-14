@@ -8,7 +8,7 @@ Old Cose => [Old Branch](https://github.com/HideakiAtsuyo/Discord-Protector/tree
 
 ## To Do(In order of priority):
 
-- GUI (WIP)
+- GUI (WIP) => Using [Dear ImGui](https://github.com/ocornut/imgui)
 - Hash verifications(files)
 - Support All Client Versions(Support Better Discord, LightCord etc... ?)
 - Real Time Verifications(files, etc.. (As Service))
